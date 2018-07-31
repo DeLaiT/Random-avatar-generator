@@ -33,6 +33,8 @@ for y in range(size):
             pixels[x, y] = color2
             pixels[size-1-x, y] = color2
 
+img = img.resize((1024, 1024))
+
 img.save("av.png")
 
 
